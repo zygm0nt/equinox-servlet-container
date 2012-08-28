@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="bridge" sequenceNumber="1">
+<locations>
+<location path="${workspace_loc}/bridge/WebContent/WEB-INF/eclipse/plugins" type="Directory"/>
+<location path="${eclipse_home}" type="Directory"/>
+</locations>
+<includeBundles>
+<plugin id="org.eclipse.update.configurator" version="3.2.100.v20070322"/>
+<plugin id="org.eclipse.equinox.http.servletbridge"/>
+<plugin id="sample.http2"/>
+<plugin id="org.eclipse.equinox.http.servlet" version="1.0.0.200704022148"/>
+<plugin id="org.eclipse.osgi.services" version="3.1.100.200704022148"/>
+<plugin id="org.apache.felix.webconsole"/>
+<plugin id="org.eclipse.equinox.registry" version="3.3.0.v20070318"/>
+<plugin id="org.eclipse.equinox.common" version="3.3.0.200704022148"/>
+<plugin id="org.eclipse.equinox.http.registry" version="1.0.0.200704022148"/>
+<plugin id="org.eclipse.osgi" version="3.3.0.200704022148"/>
+<plugin id="javax.servlet"/>
+<plugin id="sample.http"/>
+</includeBundles>
+</target>
